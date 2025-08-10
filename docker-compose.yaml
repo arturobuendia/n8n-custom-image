@@ -7,13 +7,9 @@ services:
       N8N_EDITOR_BASE_URL: '${SERVICE_FQDN_N8N}'
       WEBHOOK_URL: '${SERVICE_FQDN_N8N}'
       N8N_HOST: '${SERVICE_URL_N8N}'
-      GENERIC_TIMEZONE: '${GENERIC_TIMEZONE:-Europe/Berlin}'
-      TZ: '${TZ:-Europe/Berlin}'
+      GENERIC_TIMEZONE: '${GENERIC_TIMEZONE:-America/Mazatlan}'
+      TZ: '${TZ:-America/Mazatlan}'
       SERVICE_URL_N8N: '${SERVICE_URL_N8N}'
-      COOLIFY_RESOURCE_UUID: lkwg4os8so8c0c4ss40k0sgk
-      COOLIFY_CONTAINER_NAME: n8n-lkwg4os8so8c0c4ss40k0sgk
-      COOLIFY_URL: 'https://n8n.apperture.mx'
-      COOLIFY_FQDN: n8n.apperture.mx
     volumes:
       - 'lkwg4os8so8c0c4ss40k0sgk_n8n-data:/home/node/.n8n'
     healthcheck:
