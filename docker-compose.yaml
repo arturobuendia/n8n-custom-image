@@ -11,7 +11,7 @@ services:
       TZ: '${TZ:-America/Mazatlan}'
       SERVICE_URL_N8N: '${SERVICE_URL_N8N}'
     volumes:
-      - 'lkwg4os8so8c0c4ss40k0sgk_n8n-data:/home/node/.n8n'
+      - 'lkwg4os8so8c909090s40k0sgk_n8n-data:/home/node/.n8n'
     healthcheck:
       test:
         - CMD-SHELL
